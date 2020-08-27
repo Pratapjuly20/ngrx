@@ -1,0 +1,12 @@
+<form [formGroup]="movieForm" (ngSubmit)="onSubmit()">
+    <label>
+        Name:
+        <input type="text" formControlName="name">
+    </label>
+
+    <label>
+        Description:
+        <textarea formControlName="description"></textarea>
+    </label>
+    <button type="submit">Submit</button>
+</form>

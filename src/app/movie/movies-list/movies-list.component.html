@@ -1,0 +1,7 @@
+<div class="moviesContainer">
+    <div class="movieBlock" *ngFor="let movie of movies">
+        <span class="movieName">{{ movie.name }}</span>
+        <p class="movieDescription">{{ movie.description }}</p>
+        <span (click)="deleteMovie(movie.id)">Delete</span>
+    </div>
+</div>
