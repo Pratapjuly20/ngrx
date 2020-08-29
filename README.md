@@ -1,6 +1,8 @@
 # MovieApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+This application holds an internal node js server which is used to read and write movies into a file. 
+Please, run "nodemon index.js" to run the node js server.
 
 ## Development server
 
