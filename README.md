@@ -1,8 +1,10 @@
 # MovieApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+This application focus upon providing basic implementation knowledge of ngrx in angular apps.
 This application holds an internal node js server which is used to read and write movies into a file. 
 Please, run "nodemon index.js" to run the node js server.
+Use "npm run start" to run the main application.
 
 ## Development server
 
